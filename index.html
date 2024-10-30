@@ -1,0 +1,131 @@
+<html>
+  <meta charset="UTF-8" /><meta
+    content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5"
+    name="viewport"
+  /><meta
+    content="IE=edge"
+    http-equiv="X-UA-Compatible"
+  /><link
+    href="css/style.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="js/another.js"></script>
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  /><link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  /><link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/4f3ce16e3e.js"
+    crossorigin="anonymous"
+  ></script>
+  <head>
+    <title>Script HTML</title>
+  </head>
+  <style>
+    :root {
+      --warna-bg: rgba(0, 0, 0, 0.5);
+      --warna-teks: #fff;
+      --warna-bingkai: #fff;
+      --bingkai: 8px;
+      --bingkai-kiri: 2px solid var(--warna-bingkai);
+      --bingkai-kanan: 2px solid var(--warna-bingkai);
+      --gaya-font: "Josefin Sans", sans-serif;
+    }
+  </style>
+  <body>
+    <!-- Ganti Audio di sini -->
+    <audio id="linkmp3">https://feeldreams.github.io/papapa.mp3</audio>
+
+    <div id="bodyblur">
+      <!-- Wallpaper --><img
+        src="https://feeldreams.github.io/wp3.jpeg"
+        id="wallpaper"
+      />
+    </div>
+
+    <div id="Content">
+      <div
+        id="suratin"
+        onClick="memulai();audio.play();"
+      >
+        <!-- Tombol Surat --><img
+          src="https://rayyscoding.github.io/envelope.png"
+        />
+      </div>
+      <p id="ket">Klik Suratnya!</p>
+
+      <div>
+        <blockquote id="bq">
+          <div>
+            <!-- Stiker untuk Konten -->
+            <img
+              src="https://feeldreams.github.io/bunga.gif"
+              id="fotoakhir"
+            />
+            <img
+              src="https://feeldreams.github.io/peach1.gif"
+              id="fotoakhir2"
+            />
+            <img
+              src="https://feeldreams.github.io/weee.gif"
+              id="fotoakhir3"
+            />
+          </div>
+
+          <!-- Konten Pertanyaan -->
+          <p id="kalimat">Kamu Mau Gak Jadi Pacar Aku? 🤭❤️</p>
+          <p id="kalimatb"></p>
+          <p id="kalimatc"></p>
+
+          <!-- Konten Jawaban -->
+          <p id="kalimat2">Yeaayy! 😆</p>
+          <p id="kalimatb2">Sekarang, Kamu adalah Pacarku ❤️</p>
+          <p id="kalimatc2">
+            Eitss.. 🏃 Tapi kita akan PUTUS dalam waktu:
+            <b
+              id="ctimer"
+              style="font-size: 24px"
+              >7</b
+            >
+          </p>
+
+          <!-- Konten Jawaban 2 -->
+          <p id="kalimat3">Tapi Boong😜</p>
+          <p id="kalimatb3">Kamu beneran jadi pacar aku kok, wkwk🤣❤️</p>
+          <p id="kalimatc3">📅</p>
+        </blockquote>
+      </div>
+
+      <!-- Tombol Multifungsi -->
+      <div id="Tombol">
+        <a
+          id="By"
+          onClick="multifungsi()"
+        >
+          <b id="tmbl">Mau</b>
+        </a>
+
+        <a
+          id="Bn"
+          onClick="ditolak()"
+          >Gamau</a
+        ><a
+          id="Bn2"
+          onClick="ditolak2()"
+        ></a>
+      </div>
+
+      <span id="psnWA">Aku mau kok jadi pacarmu</span>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
